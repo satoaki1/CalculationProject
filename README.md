@@ -29,7 +29,9 @@ There are four components:
 > ### Service 
 >
 > `Service` holds methods that would be modified for arithmetic operations. There are four methods written in Java corresponding to the four arithmetic types that are included in basic arithmetic operations. All those methods perform the arithmetic operation first, save two numbers thrown, the arithmetic type and computed results into the database, and finally return the result of the operation. `save()` is independently defined by automatically invoking specific function by the `ELementsRepository.java` to save information.
+</br>
+
 
 > ### Controller
 > 
-> Finally, `DemoController.java` would define URL paths based on methods in `SatoakiService.java`. **@GetMapping** annotation with `/calc/{type}` path is defined and two parameters (double type ***a*** and double type ***b***) are requested and string type ***type*** is required since it is **PathVariable**. Based on the arithmetic type specified through PathVariable, the corresponding case defined in a switch statement is executed and the result is returned, then displayed in the format of `a + symbol + b + " = " + result2`.
+> Finally, `DemoController.java` would define URL paths based on methods in `SatoakiService.java`. **@GetMapping** annotation with `/calc/{type}` path is defined and two parameters (double type ***a*** and double type ***b***) are requested and string type ***type*** is required since it is **PathVariable**. Based on the arithmetic type specified through PathVariable, the corresponding case defined in a switch statement is executed and the result is displayed in the format of `a + symbol + b + " = " + result2`.
