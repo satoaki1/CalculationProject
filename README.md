@@ -7,10 +7,10 @@ This project is a Java programming project with Springboot framework to perform 
 # Functions
 
 There are four components:
- * [`Controller`](#controller)
- * [`Service`](#service)
- * [`Repository`](#repository)
  * [`Entity`](#entity)
+ * [`Repository`](#repository)
+ * [`Service`](#service)
+ * [`Controller`](#controller)
 </br>
 </br>
 
