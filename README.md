@@ -32,4 +32,4 @@ There are four components:
 
 > ### Controller
 > 
-> Finally, `DemoController.java` would define URL paths based on methods in `SatoakiService.java`. **@GetMapping** annotation with `/calc/{type}` path is defined and two parameters (double type ***a*** and double type ***b***) are requested and string type ***type*** is required since it is **PathVariable**. Based on the arithmetic type specified through PathVariable, the corresponding case defined in a switch statement is executed and the result is displayed in the format of `a + symbol + b + " = " + result2`.
+> Finally, `DemoController.java` would define URL paths based on methods in `SatoakiService.java`. **@GetMapping** annotation with `/calc/{type}` path is defined and two parameters (double type ***a*** and double type ***b***) are requested and string type ***type*** is required since it is **PathVariable**. Based on the arithmetic type specified through PathVariable, the corresponding case defined in a switch statement is executed and the result is returned, then displayed in the format of `a + symbol + b + " = " + result2`.
